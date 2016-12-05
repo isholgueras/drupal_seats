@@ -1,0 +1,7 @@
+seats.config.layout:
+  path: '/admin/structure/seats/layout'
+  defaults:
+    _controller: '\Drupal\seats\Controller\SeatsConfigController::configureLayout'
+    _title: 'Configure seats layout'
+  requirements:
+    _permission: 'administer seats layout'
